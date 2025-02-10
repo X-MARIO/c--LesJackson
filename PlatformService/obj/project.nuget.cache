@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uR3WToEOmaA=",
+  "success": true,
+  "projectFilePath": "C:\\git\\c#\\LesJackson\\PlatformService\\PlatformService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xpave\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\xpave\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
