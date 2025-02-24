@@ -7,5 +7,7 @@
 7. `kubectl apply -f ./platform-depl.yaml`
 8. `k get deployments`
 9. `k delete -f ./platform-depl.yaml`
-10. `k apply -f ./platform-depl.yaml - f ./platform-np-srv.yaml`
+10. `k apply -f ./platform-depl.yaml -f ./platform-np-srv.yaml`
 11. `k get services`
+12. `k delete -f ./platform-depl.yaml -f ./platform-np-srv.yaml`
+13. `kubectl logs platforms-depl-86f475c477-dkrw5`
