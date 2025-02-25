@@ -10,4 +10,6 @@
 10. `k apply -f ./platform-depl.yaml -f ./platform-np-srv.yaml`
 11. `k get services`
 12. `k delete -f ./platform-depl.yaml -f ./platform-np-srv.yaml`
-13. `kubectl logs platforms-depl-86f475c477-dkrw5`
+13. `kubectl logs platforms-depl-86f475c477-dkrw5ex`
+14. `k expose deploy platforms-depl --type=NodePort --port=8888 --target-port=8080`
+15. `minikube service platformnpservice-srv --url`
